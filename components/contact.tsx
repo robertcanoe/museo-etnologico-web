@@ -81,21 +81,21 @@ export function Contact() {
             </Card>
           </div>
 
-          {/* Map Placeholder */}
+          {/* Google Maps Embed */}
           <div className="hover-lift">
             <Card className="h-full">
               <CardContent className="p-0 h-full min-h-[400px]">
-                <div className="w-full h-full bg-secondary/50 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-16 w-16 text-primary mx-auto mb-4" />
-                    <h3 className="font-serif text-xl font-bold text-primary mb-2">Encuéntranos</h3>
-                    <p className="text-muted-foreground">
-                      En el corazón histórico de
-                      <br />
-                      Almodóvar del Río
-                    </p>
-                  </div>
-                </div>
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.641123456789!2d-5.0078649!3d37.8158512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d2ba4d429df33%3A0x72146820629fafae!2sMuseo%20Etnol%C3%B3gico%20de%20Almod%C3%B3var%20del%20R%C3%ADo!5e0!3m2!1ses!2ses!4v1720897382938!5m2!1ses!2ses" 
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0, borderRadius: '0.5rem' }} 
+                  allowFullScreen 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Ubicación del Museo Etnológico de Almodóvar del Río"
+                  className="w-full h-full min-h-[400px]"
+                ></iframe>
               </CardContent>
             </Card>
           </div>
