@@ -27,7 +27,7 @@ export function About() {
           </div>
           <div className="hover-lift">
             <img
-              src="/traditional-spanish-museum.png"
+              src="/foto-interior.webp"
               alt="Interior del museo"
               className="w-full h-80 object-cover rounded-lg shadow-lg"
             />
@@ -41,10 +41,15 @@ export function About() {
                 <MapPin className="h-8 w-8 text-primary" />
               </div>
               <h4 className="font-serif text-xl font-bold text-primary mb-2">Ubicación</h4>
-              <p className="text-muted-foreground">
-                Situado en el corazón histórico de Almodóvar del Río, en un edificio que es patrimonio arquitectónico de
-                la localidad.
+              <p className="text-muted-foreground mb-3">
               </p>
+              <a 
+                href="#contacto" 
+                className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-medium text-sm gap-2"
+              >
+                <MapPin className="h-4 w-4" />
+                Ver en el mapa
+              </a>
             </CardContent>
           </Card>
 
