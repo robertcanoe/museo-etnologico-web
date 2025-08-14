@@ -8,9 +8,9 @@ import { X } from "lucide-react"
 const galleryImages = [
   {
     id: 1,
-    src: "/placeholder-gnokm.png",
-    alt: "Colección de cerámica tradicional",
-    title: "Cerámica Tradicional",
+    src: "/foto-motos.webp",
+    alt: "Colección de motos",
+    title: "Colección de Motos",
   },
   {
     id: 2,
