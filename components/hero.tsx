@@ -51,9 +51,9 @@ export function Hero() {
             size="lg"
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-primary bg-transparent"
-            onClick={() => scrollToSection("exposiciones")}
+            onClick={() => scrollToSection("galeria")}
           >
-            Ver Exposiciones
+            Ver Galería
           </Button>
         </div>
       </div>
