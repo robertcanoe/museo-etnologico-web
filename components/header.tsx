@@ -50,10 +50,10 @@ export function Header() {
               Galería
             </button>
             <button
-              onClick={() => scrollToSection("exposiciones")}
+              onClick={() => scrollToSection("reseñas")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Exposiciones
+              Reseñas
             </button>
             <button
               onClick={() => scrollToSection("contacto")}
@@ -92,10 +92,10 @@ export function Header() {
                 Galería
               </button>
               <button
-                onClick={() => scrollToSection("exposiciones")}
+                onClick={() => scrollToSection("reseñas")}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
-                Exposiciones
+                Reseñas
               </button>
               <button
                 onClick={() => scrollToSection("contacto")}
