@@ -24,7 +24,7 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Plaza del Ayuntamiento, 1<br />
+                  CC-431, 14720 Almodóvar del Río, Córdoba<br />
                   14720 Almodóvar del Río
                   <br />
                   Córdoba, España
@@ -42,20 +42,12 @@ export function Contact() {
               <CardContent>
                 <div className="space-y-2 text-muted-foreground">
                   <div className="flex justify-between">
-                    <span>Martes - Viernes:</span>
-                    <span>10:00 - 14:00 / 17:00 - 20:00</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Sábados:</span>
-                    <span>10:00 - 14:00</span>
+                    <span>Lunes - Sábados:</span>
+                    <span>9:30 - 14:00 / 17:00 - 20:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Domingos:</span>
-                    <span>11:00 - 14:00</span>
-                  </div>
-                  <div className="flex justify-between font-semibold">
-                    <span>Lunes:</span>
-                    <span>Cerrado</span>
+                    <span>10:00 - 14:00</span>
                   </div>
                 </div>
               </CardContent>
@@ -71,11 +63,7 @@ export function Contact() {
               <CardContent className="space-y-3">
                 <div className="flex items-center text-muted-foreground">
                   <Phone className="mr-3 h-4 w-4" />
-                  <span>+34 957 71 50 01</span>
-                </div>
-                <div className="flex items-center text-muted-foreground">
-                  <Mail className="mr-3 h-4 w-4" />
-                  <span>museo@almodovardelrio.es</span>
+                  <span>+34 649 45 25 80</span>
                 </div>
               </CardContent>
             </Card>
@@ -108,8 +96,8 @@ export function Contact() {
               <h3 className="font-serif text-2xl font-bold text-primary mb-4">Información para Visitantes</h3>
               <div className="grid md:grid-cols-3 gap-6 text-muted-foreground">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">Entrada Gratuita</h4>
-                  <p className="text-sm">El acceso al museo es completamente gratuito para todos los visitantes.</p>
+                  <h4 className="font-semibold text-foreground mb-2">Entrada 6€</h4>
+                  <p className="text-sm">El acceso al museo tiene un coste de 6€ por persona.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Visitas Guiadas</h4>
