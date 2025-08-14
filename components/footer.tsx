@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Mail } from "lucide-react"
+import { Facebook, Instagram } from "lucide-react"
 
 export function Footer() {
   return (
@@ -22,32 +22,18 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/share/16RLpfPnLn/?mibextid=wwXIfr"
                 className="w-10 h-10 bg-primary-foreground/20 rounded-full flex items-center justify-center hover:bg-primary-foreground/30 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/museo_etnologico/"
                 className="w-10 h-10 bg-primary-foreground/20 rounded-full flex items-center justify-center hover:bg-primary-foreground/30 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-primary-foreground/20 rounded-full flex items-center justify-center hover:bg-primary-foreground/30 transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-primary-foreground/20 rounded-full flex items-center justify-center hover:bg-primary-foreground/30 transition-colors"
-                aria-label="Email"
-              >
-                <Mail className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -72,8 +58,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#exposiciones" className="hover:text-primary-foreground transition-colors">
-                  Exposiciones
+                <a href="#reseñas" className="hover:text-primary-foreground transition-colors">
+                  Reseñas
                 </a>
               </li>
               <li>
@@ -88,18 +74,16 @@ export function Footer() {
           <div>
             <h4 className="font-serif font-bold text-lg mb-4">Contacto</h4>
             <div className="space-y-2 text-primary-foreground/80 text-sm">
-              <p>Plaza del Ayuntamiento, 1</p>
+              <p>CC-431, 14720 Almodóvar del Río, Córdoba</p>
               <p>14720 Almodóvar del Río</p>
               <p>Córdoba, España</p>
-              <p className="mt-3">+34 957 71 50 01</p>
-              <p>museo@almodovardelrio.es</p>
+              <p className="mt-3">+34 649 45 25 80</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-primary-foreground/60 text-sm">
-          <p>&copy; 2024 Museo Etnológico de Almodóvar del Río. Todos los derechos reservados.</p>
-          <p className="mt-2">Desarrollado con ❤️ para preservar nuestra cultura</p>
+          <p>&copy; 2025 Museo Etnológico de Almodóvar del Río. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
