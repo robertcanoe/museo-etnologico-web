@@ -16,7 +16,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/spanish-pottery-artifacts.png"
+          src="/foto-entrada-header.webp"
           alt="Museo Etnológico de Almodóvar del Río"
           className="w-full h-full object-cover"
         />
